@@ -1,0 +1,8 @@
+git init dependabot-demo
+cd dependabot-demo
+# Add the 3 files above
+git add .
+git commit -m "Add Dependabot config"
+git branch -M main
+git remote add origin https://github.com/21f1000397/dependabot-demo.git
+git push -u origin main
